@@ -375,3 +375,16 @@ h1, h2, h3 { text-align: left; }
 .site-nav a[aria-current="page"] { -webkit-text-fill-color: transparent; color: transparent; }
 .site-nav a[aria-current="page"]::after { background: linear-gradient(105deg, #efe0bd 0%, #d6b97e 38%, #f3e6c8 55%, #c8a96b 80%, #e6d3a6 100%); }
 .hero-band h1 { padding-bottom: 0.18em; margin-bottom: calc(1.1rem - 0.18em); }
+
+/* Nov 13 [Ahmed]: colour gradients only on the headline and the numbers; all other text is a single flat metallic tone */
+:root { --flat-silver: #d8d8de; --flat-silver-hi: #f2f2f5; --flat-champagne: #d9bf8a; --flat-gunmetal: #2b2b31; }
+.hero-band .lead, .hero-band .eyebrow b, .footer-brand, .site-nav a, .hero-band .link-row a, .footer-cols a, .footer-cols h3, .site-footer p, .fineprint, .stats span, .button span, .hero-band .button.ghost span {
+  background: none; -webkit-background-clip: border-box; background-clip: border-box; color: var(--flat-silver); -webkit-text-fill-color: var(--flat-silver);
+}
+.hero-band .lead, .hero-band .eyebrow b, .footer-brand { color: var(--flat-silver-hi); -webkit-text-fill-color: var(--flat-silver-hi); }
+.site-nav a:hover, .footer-cols a:hover { background: none; color: var(--flat-silver-hi); -webkit-text-fill-color: var(--flat-silver-hi); }
+.brand, .site-nav a[aria-current="page"] { background: none; -webkit-background-clip: border-box; background-clip: border-box; color: var(--flat-champagne); -webkit-text-fill-color: var(--flat-champagne); }
+.site-nav a[aria-current="page"]::after { background: var(--flat-champagne); }
+h1:not(.hero-band h1), h2:not([id^="y"]):not(#manuscripts), h3, .card h3 a, .tile h3, figcaption b {
+  background: none; -webkit-background-clip: border-box; background-clip: border-box; color: var(--flat-gunmetal); -webkit-text-fill-color: var(--flat-gunmetal);
+}
