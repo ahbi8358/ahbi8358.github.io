@@ -1,0 +1,19 @@
+# Preprint and manuscripts under review or in preparation, numbered as on the CV. Move an entry into publications.yml once it is accepted. Optional url: links the status line.
+- code: M1
+  authors: "Ninawe, P., Mason, K. G., Aoki, T., Sun, H., Biby, A. H., Goel, R., Wuille-Bille, B., Agbeworvi, G., Lin, Z., Feiner, S., Smiley, R. E., La Plante, E., Moreno-Hernandez, I. A., Kulkarni, A. R., Musgrave, C. B., and Velázquez, J. M."
+  title: "Interstitial Palladium Stabilization Enables Structural and Electronic Control in Metastable Chevrel Phase"
+  status: "Under review"
+- code: M2
+  authors: "Biby, A. H. and Musgrave, C. B."
+  title: "High-Fidelity In Silico Dataset of Ordered Binary and Ternary MXenes with Predictive Synthesis Guidance"
+  status: "Preprint, arXiv:2611.14687 (2026)"
+  url: "https://arxiv.org/abs/2611.14687"
+  first_author: true
+- code: M3
+  authors: "Mason, K. G., Goel, R., Mosqueda, N., Lin, Z., Feiner, S., Biby, A. H., La Mers-Noble, S., La Plante, E., Musgrave, C. B., Moreno-Hernandez, I. A., Kulkarni, A. R., and Velázquez, J. M."
+  title: "3d-Metal Interstitial Alloying Unlocks Stoichiometric Intercalant Restraints in Mo₆S₈ Frameworks"
+  status: "In preparation"
+- code: M4
+  authors: "Kumari, A., Ninawe, P., Biby, A. H., Kalita, D., Khalak, I., De Jesús Báez, L. R., Musgrave, C. B., and Velázquez, J. M."
+  title: "Charge Transport Dynamics in Microwave-Synthesized Transition Metal Heterostructures"
+  status: "In preparation"

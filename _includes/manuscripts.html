@@ -1,0 +1,13 @@
+<div class="pubs">
+<h2 id="manuscripts">Preprint and manuscripts under review or in preparation</h2>
+<ul class="pub-list ms-list">
+{% for m in site.data.manuscripts %}
+  <li class="pub{% if m.first_author %} first{% endif %}" id="{{ m.code | downcase }}">
+    <span class="pub-title">{{ m.code }}. {{ m.title }}</span>
+    <span class="pub-authors">{{ m.authors | replace: "Biby, A. H.", "<strong>Biby, A. H.</strong>" }}</span>
+    <span class="pub-venue">{% if m.url %}<a href="{{ m.url }}">{{ m.status }}</a>{% else %}{{ m.status }}{% endif %}.</span>
+    {% if m.first_author %}<span class="tag">first author</span>{% endif %}
+  </li>
+{% endfor %}
+</ul>
+</div>

@@ -1,0 +1,15 @@
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="{{ '/' | relative_url }}">{{ site.data.profile.name }}</a>
+    <nav class="site-nav" aria-label="Main">
+      {% for item in site.data.profile.nav %}
+        {% assign item_url = item.url | relative_url %}
+        {% if page.url == item.url %}
+          <a href="{{ item_url }}" aria-current="page">{{ item.label }}</a>
+        {% else %}
+          <a href="{{ item_url }}">{{ item.label }}</a>
+        {% endif %}
+      {% endfor %}
+    </nav>
+  </div>
+</header>

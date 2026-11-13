@@ -1,0 +1,35 @@
+# Site settings for GitHub Pages (Jekyll). Edit the text in the .md pages and in _data/, not here.
+title: Ahmed H. Biby
+tagline: Computational materials thermodynamics and inverse design
+description: "Ahmed H. Biby, Ph.D. in materials science and engineering. Computational materials thermodynamics and inverse materials design: phase stability from first principles, predictive synthesis, and building phase diagrams faster from calorimetry, with the uncertainty stated."
+url: "https://ahbi8358.github.io"   # change if you use a custom domain
+baseurl: ""                         # keep empty for a user site (username.github.io)
+author:
+  name: Ahmed H. Biby
+lang: en
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+permalink: pretty
+
+# Both plugins are on GitHub Pages' allow-list; no GitHub Actions needed.
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - vendor
+  - node_modules
+  - .jekyll-cache
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

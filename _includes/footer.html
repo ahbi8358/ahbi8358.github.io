@@ -1,0 +1,23 @@
+<footer class="site-footer">
+  <div class="inner">
+    <div class="footer-cols">
+      <div>
+        <p class="footer-brand">{{ site.data.profile.name }}</p>
+        <p>{{ site.data.profile.tagline }}.</p>
+      </div>
+      <div>
+        <h3>Pages</h3>
+        <ul>{% for item in site.data.profile.nav %}<li><a href="{{ item.url | relative_url }}">{{ item.label }}</a></li>{% endfor %}</ul>
+      </div>
+      <div>
+        <h3>Profiles</h3>
+        <ul>{% for l in site.data.profile.links %}<li><a href="{{ l.url }}" rel="me">{{ l.label }}</a></li>{% endfor %}<li><a href="{{ site.data.profile.cv_pdf | relative_url }}">CV (PDF)</a></li></ul>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul>{% if site.data.profile.email != "" %}<li><a href="mailto:{{ site.data.profile.email }}">{{ site.data.profile.email }}</a></li>{% endif %}</ul>
+      </div>
+    </div>
+    <p class="fineprint">© {{ site.time | date: '%Y' }} {{ site.data.profile.name }}{% if site.data.profile.location != "" %} · {{ site.data.profile.location }}{% endif %} · Updated {{ site.data.profile.updated }}. Text on this site is the author's; cited results link to their sources.</p>
+  </div>
+</footer>

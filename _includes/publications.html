@@ -1,0 +1,20 @@
+{% assign pubs = site.data.publications | sort: "n" | reverse %}
+{% assign current_year = "" %}
+<div class="pubs">
+{% for p in pubs %}
+  {% if p.year != current_year %}
+    {% unless forloop.first %}</ol>{% endunless %}
+    {% assign current_year = p.year %}
+    <h2 id="y{{ p.year }}">{{ p.year }}</h2>
+    <ol class="pub-list" reversed>
+  {% endif %}
+  <li value="{{ p.n }}" class="pub{% if p.first_author %} first{% endif %}" id="p{{ p.n }}">
+    <span class="pub-title">{% if p.doi %}<a href="https://doi.org/{{ p.doi }}">{{ p.title }}</a>{% elsif p.url %}<a href="{{ p.url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</span>
+    <span class="pub-authors">{{ p.authors | replace: "Biby, A. H.", "<strong>Biby, A. H.</strong>" }}</span>
+    <span class="pub-venue"><em>{{ p.journal }}</em>{% if p.volume %} <b>{{ p.volume }}</b>{% endif %}{% if p.issue %}({{ p.issue }}){% endif %}{% if p.pages %}, {{ p.pages }}{% endif %} ({{ p.year }}){% if p.doi %}. <a class="doi" href="https://doi.org/{{ p.doi }}">doi:{{ p.doi }}</a>{% endif %}</span>
+    {% if p.first_author %}<span class="tag">first author</span>{% endif %}
+    {% if p.finding %}<span class="pub-finding">{{ p.finding }}</span>{% endif %}
+  </li>
+{% endfor %}
+</ol>
+</div>

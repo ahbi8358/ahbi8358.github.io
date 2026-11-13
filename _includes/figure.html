@@ -1,0 +1,10 @@
+{%- assign base = '/assets/img/papers/' | append: include.src -%}
+<figure class="fig{% if include.wide %} wide{% endif %}">
+  {%- if include.link %}<a href="{{ include.link }}">{% endif -%}
+  <picture>
+    <source srcset="{{ base | append: '.webp' | relative_url }}" type="image/webp">
+    <img src="{{ base | append: '.jpg' | relative_url }}" alt="{{ include.alt }}" width="{{ include.width }}" height="{{ include.height }}" loading="lazy">
+  </picture>
+  {%- if include.link %}</a>{% endif -%}
+  <figcaption>{{ include.caption }}{% if include.credit %} <span class="credit">{{ include.credit }}</span>{% endif %}</figcaption>
+</figure>

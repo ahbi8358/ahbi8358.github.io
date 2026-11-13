@@ -1,0 +1,24 @@
+# Who the site is about. Change a value here and every page updates.
+name: Ahmed H. Biby
+short_name: Ahmed Biby
+tagline: Computational materials thermodynamics and inverse design
+location: ""      # leave empty ("") to hide the line
+email: "ahmed.biby@colorado.edu"                            # an address you keep long-term, or leave empty to show none
+photo: /assets/img/ahmed-biby.jpg
+photo_alt: Portrait of Ahmed H. Biby
+cv_pdf: /assets/cv/Ahmed_Biby_CV.pdf
+updated: November 2026
+links:
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?user=wa8Qw_8AAAAJ
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/ahmedbiby
+nav:
+  - label: Home
+    url: /
+  - label: Research
+    url: /research/
+  - label: Publications
+    url: /publications/
+  - label: CV
+    url: /cv/

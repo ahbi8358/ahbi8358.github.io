@@ -1,0 +1,148 @@
+# One entry per refereed paper. Add new papers at the top with the next n. DOI links render automatically.
+# first_author: true marks Ahmed's first-author papers; finding = one line on what the paper showed (first-author papers only).
+# url: optional publisher link used only when doi is null.
+- n: 15
+  year: 2026
+  authors: "Kumari, A., Vigil, S. A., Mason, K. G., Sivakumar, S., Biby, A. H., Ninawe, P., Musgrave, C. B., Kulkarni, A. R., Moreno-Hernandez, I. A., and Velázquez, J. M."
+  title: "Local Structural Coherence and Interfacial Charge Transfer in Cu₂S/MoS₂ Heterostructure"
+  journal: "PRX Energy"
+  volume: "5"
+  issue: "2"
+  pages: "023009"
+  doi: "10.1103/84s6-812t"
+- n: 14
+  year: 2026
+  authors: "Wang, Z., Lower, L., Kawashima, K., Zhang, D., Misal, S. N., Castro Baldivieso, S., Chen, G., Hong, S., Tupkar, H., Nascimento da Silva, K., Banerjee, A., Mathison, R., Lopez Ochoa, J., Buyuker, I. S., Messias, I., Ju, D., Lee, A., Gaddam, R., King, J. F., Blockmon, A. L., Nagarajan, P., Stokes, J.-E., Svirinovsky-Arbeli, A., Biby, A. H., Wilson, C. E., Luo, J., Cosenza, A., Phuthi, M. K., Karki, N., Wang, X., Morchhale, A., Arrazolo, L. K., Ramesh, S. L., Kozlica, D. K., Ganesan, V. S., Tafese, B. N., Lim, J., Wofford, L., Hou, S., Shin, J., Oh, D., Minocha, N., and Cabana, J."
+  title: "NGenE 2025: Electrochemistry for Energy Abundance"
+  journal: "ACS Energy Letters"
+  volume: "11"
+  issue: "6"
+  pages: "4190–4196"
+  doi: "10.1021/acsenergylett.6c01050"
+- n: 13
+  year: 2026
+  authors: "Nafis, M. S., Liang, Z., Biby, A. H., Rodriguez, D., Tancin, R. J., Finegan, D. P., Musgrave, C. B., Lee, S., and Ban, C."
+  title: "Lattice-Oxygen-Driven Selective Oxidation Strategy for Stable Argyrodite Solid-State Lithium Metal Batteries"
+  journal: "Energy Storage Materials"
+  volume: "86"
+  issue: null
+  pages: "104986"
+  doi: "10.1016/j.ensm.2026.104986"
+- n: 12
+  year: 2026
+  authors: "Kotob, E., Alsunni, Y. A., Biby, A. H., Taialla, O. A., Hussain, I., Alhooshani, K., Ganiyu, S. A., Suliman, M. H., and Usman, M."
+  title: "Harnessing high faradaic efficiency for n-butanol over Cu-cubic nanocrystals: New insights into CO₂ reduction via GC-DFT and operando Raman spectroscopy"
+  journal: "Applied Catalysis A: General"
+  volume: "711"
+  issue: null
+  pages: "120752"
+  doi: "10.1016/j.apcata.2025.120752"
+- n: 11
+  year: 2025
+  authors: "Biby, A. H., Ali, B. A., and Musgrave, C. B."
+  title: "Beyond Lithium Lanthanum Titanate: Metal-Stable Hafnium Perovskite Electrolytes for Solid-State Batteries"
+  journal: "EES Batteries"
+  volume: "1"
+  issue: "5"
+  pages: "1114–1121"
+  doi: "10.1039/d5eb00089k"
+  first_author: true
+  finding: "DFT screening of perovskite-type electrolytes: replacing Ti with Hf (LLHfO) gives thermodynamic metastability in contact with Li metal and the mechanical stability that the Zr analogue lacks, at the cost of higher Li diffusion barriers than LLTO."
+- n: 10
+  year: 2025
+  authors: "Biby, A. H., Rich, B. S., and Musgrave, C. B."
+  title: "A Data-driven Framework to Accelerate the Discovery of Hybrid Cathode Materials for Metal-based Batteries"
+  journal: "Journal of Materials Chemistry A"
+  volume: "13"
+  issue: "24"
+  pages: "18948–18958"
+  doi: "10.1039/d5ta01405k"
+  first_author: true
+  finding: "A chemistry-agnostic inverse-design framework that screens hybrid (intercalation plus conversion) cathodes for any working ion by thermodynamic stability and by how the two components grow on each other; it identified LiCr₄GaS₈–Li₂S, with an average energy density above NMC333's theoretical maximum."
+- n: 9
+  year: 2021
+  authors: "Saleh, A. A., Ahmed, N., Biby, A. H., and Allam, N. K."
+  title: "Supercapattery electrode materials by design: Plasma-induced defect engineering of bimetallic oxyphosphides for energy storage"
+  journal: "Journal of Colloid and Interface Science"
+  volume: "603"
+  issue: null
+  pages: "478–490"
+  doi: "10.1016/j.jcis.2021.06.125"
+- n: 8
+  year: 2021
+  authors: "Ali, B. A., Biby, A. H., and Allam, N. K."
+  title: "Toward the proper selection of carbon electrode materials for energy storage applications: experimental and theoretical insights"
+  journal: "Energy & Fuels"
+  volume: "35"
+  issue: "16"
+  pages: "13426–13437"
+  doi: "10.1021/acs.energyfuels.1c01528"
+- n: 7
+  year: 2021
+  authors: "Biby, A. H., Tolba, S. A., and Allam, N. K."
+  title: "Unveiling the role of carbon defects in the exceptional narrowing of m-ZrO₂ wide-bandgap for enhanced photoelectrochemical water splitting"
+  journal: "International Journal of Hydrogen Energy"
+  volume: "46"
+  issue: "41"
+  pages: "21499–21511"
+  doi: "10.1016/j.ijhydene.2021.03.248"   # supplied by Ahmed and verified on Crossref, Nov 4, 2026
+  first_author: true
+  finding: "DFT study of carbon defects in monoclinic ZrO₂ for photoanodes: the complex carbon defects are thermodynamically stable, narrow the wide band gap while keeping band edges suited to a photoanode, and the carbon-substitution plus oxygen-vacancy complex is identified as the leading candidate for its low formation and exciton-binding energies."
+- n: 6
+  year: 2021
+  authors: "Ali, B. A., Biby, A. H., and Allam, N. K."
+  title: "Towards Cs-ion supercapacitors: Cs intercalation in polymorph MoS₂ as a model 2D electrode material"
+  journal: "Chemical Communications"
+  volume: "57"
+  issue: "26"
+  pages: "3231–3234"
+  doi: "10.1039/d0cc07887e"
+- n: 5
+  year: 2021
+  authors: "Biby, A. H., Ali, B. A., and Allam, N. K."
+  title: "Rb intercalation enhanced the supercapacitive performance of layer-structured MoS₂ as a 2D model material"
+  journal: "Materials Advances"
+  volume: "2"
+  issue: "15"
+  pages: "5052–5056"
+  doi: "10.1039/d1ma00145k"
+  first_author: true
+  finding: "Rb⁺ intercalation into 1T, 2H and 3R MoS₂ stabilizes the 1T phase more than Li⁺ does, turns the semiconducting 2H and 3R phases metallic, and raises the quantum capacitance of all three phases well above that of graphene."
+- n: 4
+  year: 2021
+  authors: "Biby, A. H., Ali, B. A., and Allam, N. K."
+  title: "Interplay of quantum capacitance with Van der Waals forces, intercalation, co-intercalation, and the number of MoS₂ layers"
+  journal: "Materials Today Energy"
+  volume: "20"
+  issue: null
+  pages: "100677"
+  doi: "10.1016/j.mtener.2021.100677"
+  first_author: true
+  finding: "The quantum capacitance of 2H, 3R and 1T MoS₂ depends on the layer count and on van der Waals corrections; alkali intercalation drives the 2H and 3R phases to metallic 1T, and Li⁺/Na⁺ co-intercalation gave the highest and most stable quantum capacitance."
+- n: 3
+  year: 2020
+  authors: "Ahmed, N., Amer, A., Ali, B. A., Biby, A. H., Mesbah, Y. I., and Allam, N. K."
+  title: "Boosting the cyclic stability and supercapacitive performance of graphene hydrogels via excessive nitrogen doping: experimental and DFT insights"
+  journal: "Sustainable Materials and Technologies"
+  volume: "25"
+  issue: null
+  pages: "e00206"
+  doi: "10.1016/j.susmat.2020.e00206"
+- n: 2
+  year: 2020
+  authors: "Ali, B. A., Biby, A. H., and Allam, N. K."
+  title: "Fullerene C₇₆: An unexplored superior electrode material with wide operating potential window for high-performance supercapacitors"
+  journal: "ChemElectroChem"
+  volume: "7"
+  issue: "7"
+  pages: "1672–1678"
+  doi: "10.1002/celc.202000192"
+- n: 1
+  year: 2018
+  authors: "Gameel, K. M., Sharafeldin, I. M., Abourayya, A. U., Biby, A. H., and Allam, N. K."
+  title: "Unveiling CO adsorption on Cu surfaces: new insights from molecular orbital principles"
+  journal: "Physical Chemistry Chemical Physics"
+  volume: "20"
+  issue: "40"
+  pages: "25892–25900"
+  doi: "10.1039/c8cp04253e"
