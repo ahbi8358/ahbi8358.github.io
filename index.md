@@ -23,7 +23,6 @@ permalink: /
   <ul class="stats">
     <li><b>15</b><span>refereed papers</span></li>
     <li><b>5</b><span>as first author</span></li>
-    <li><b>1,040</b><span>MXenes in a first-author preprint dataset</span></li>
   </ul>
 </section>
 

@@ -1,36 +1,40 @@
 <svg class="illus" viewBox="0 0 400 260" role="img" aria-labelledby="pd-t" xmlns="http://www.w3.org/2000/svg">
   <title id="pd-t">A binary eutectic phase diagram whose liquidus carries an uncertainty band and measured points with error bars</title>
   <defs>
-    <linearGradient id="m-pd" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#fafafa"/><stop offset=".2" stop-color="#a1a1aa"/><stop offset=".45" stop-color="#f4f4f5"/><stop offset=".7" stop-color="#71717a"/><stop offset="1" stop-color="#d4d4d8"/>
-    </linearGradient>
+    <linearGradient id="p-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2c2f36"/><stop offset=".5" stop-color="#1b1d22"/><stop offset="1" stop-color="#0f1013"/></linearGradient>
+    <linearGradient id="p-axis" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4f4f5"/><stop offset=".5" stop-color="#8e8e96"/><stop offset="1" stop-color="#d4d4d8"/></linearGradient>
+    <linearGradient id="p-gold" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#e2c070"/><stop offset=".3" stop-color="#f8e9b5"/><stop offset=".55" stop-color="#c99a2e"/><stop offset=".8" stop-color="#f3dc95"/><stop offset="1" stop-color="#b8861f"/></linearGradient>
+    <linearGradient id="p-green" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6fd394"/><stop offset="1" stop-color="#1c8a4b"/></linearGradient>
+    <filter id="p-glow" x="-10%" y="-30%" width="120%" height="160%"><feGaussianBlur stdDeviation="4"/></filter>
   </defs>
-  <g stroke="url(#m-pd)" stroke-width="2.5" fill="none" stroke-linecap="round">
-    <path d="M40 210 H380"/><path d="M40 210 V30"/>
-  </g>
-  <g fill="#a1a1aa"><path d="M380 210 l-9 -4 v8 z"/><path d="M40 30 l-4 9 h8 z"/></g>
-  <path d="M40 54 Q120 122 200 160 Q280 112 380 72 L380 90 Q280 130 200 182 Q120 140 40 68 Z" fill="#15803d" opacity=".18"/>
-  <path d="M40 60 Q120 130 200 170 Q280 120 380 80" fill="none" stroke="#14532d" stroke-width="2.6"/>
-  <path d="M72 170 H348" stroke="#14532d" stroke-width="2.2"/>
-  <path d="M72 170 L56 210" fill="none" stroke="#14532d" stroke-width="1.6"/>
-  <path d="M348 170 L366 210" fill="none" stroke="#14532d" stroke-width="1.6"/>
-  <g stroke="#14532d" stroke-width="1.4">
+  <rect width="400" height="260" fill="url(#p-bg)"/>
+  <g stroke="url(#p-axis)" stroke-width="2.2" fill="none" stroke-linecap="round"><path d="M40 210 H380"/><path d="M40 210 V30"/></g>
+  <g fill="#d4d4d8"><path d="M380 210 l-9 -4 v8 z"/><path d="M40 30 l-4 9 h8 z"/></g>
+  <path d="M40 54 Q120 122 200 160 Q280 112 380 72 L380 90 Q280 130 200 182 Q120 140 40 68 Z" fill="#d4a83a" opacity=".35" filter="url(#p-glow)"/>
+  <path d="M40 54 Q120 122 200 160 Q280 112 380 72 L380 90 Q280 130 200 182 Q120 140 40 68 Z" fill="#d4a83a" opacity=".22"/>
+  <path d="M40 60 Q120 130 200 170 Q280 120 380 80" fill="none" stroke="url(#p-gold)" stroke-width="3.4"/>
+  <path d="M40 54 Q120 122 200 160 Q280 112 380 72" fill="none" stroke="#f3dc95" stroke-width="1" stroke-dasharray="4 4" opacity=".8"/>
+  <path d="M40 68 Q120 140 200 182 Q280 130 380 90" fill="none" stroke="#f3dc95" stroke-width="1" stroke-dasharray="4 4" opacity=".8"/>
+  <path d="M72 170 H348" stroke="#c9c9d1" stroke-width="2"/>
+  <path d="M72 170 L56 210" fill="none" stroke="#c9c9d1" stroke-width="1.5"/>
+  <path d="M348 170 L366 210" fill="none" stroke="#c9c9d1" stroke-width="1.5"/>
+  <g stroke="#e4e4e7" stroke-width="1.4">
     <path d="M96 100 V118 M90 100 H102 M90 118 H102"/>
     <path d="M150 128 V152 M144 128 H156 M144 152 H156"/>
     <path d="M260 126 V156 M254 126 H266 M254 156 H266"/>
     <path d="M330 92 V110 M324 92 H336 M324 110 H336"/>
   </g>
-  <g fill="#14532d" stroke="#fff" stroke-width="1.5">
-    <rect x="91" y="104" width="10" height="10"/><rect x="145" y="135" width="10" height="10"/><rect x="255" y="136" width="10" height="10"/><rect x="325" y="96" width="10" height="10"/>
+  <g fill="url(#p-green)" stroke="#f6e7b0" stroke-width="1.2">
+    <rect x="91" y="104" width="10" height="10" rx="1.5"/><rect x="145" y="135" width="10" height="10" rx="1.5"/><rect x="255" y="136" width="10" height="10" rx="1.5"/><rect x="325" y="96" width="10" height="10" rx="1.5"/>
   </g>
-  <g font-size="13" fill="#0b0b0f" font-weight="600" text-anchor="middle">
-    <text x="200" y="100">liquid</text>
-    <text x="110" y="196" font-weight="400">α</text><text x="310" y="196" font-weight="400">β</text>
-    <text x="200" y="196" font-weight="400">α + β</text>
-    <text x="100" y="150" font-weight="400" fill="#52525b">α + L</text><text x="300" y="150" font-weight="400" fill="#52525b">β + L</text>
+  <g font-size="13" fill="#f4f4f5" font-weight="600" text-anchor="middle">
+    <text x="200" y="62">liquid</text>
+    <text x="110" y="196" font-weight="400" font-style="italic">α</text><text x="310" y="196" font-weight="400" font-style="italic">β</text>
+    <text x="200" y="196" font-weight="400" font-style="italic">α + β</text>
+    <text x="100" y="150" font-weight="400" fill="#c9c9d1" font-style="italic">α + L</text><text x="300" y="150" font-weight="400" fill="#c9c9d1" font-style="italic">β + L</text>
   </g>
-  <g font-size="12" fill="#14532d" font-weight="600"><text x="214" y="110">liquidus</text><text x="214" y="123">± uncertainty</text></g>
-  <g font-size="13" fill="#52525b">
+  <g font-size="12" fill="#f3dc95" font-weight="600" text-anchor="middle"><text x="200" y="96">liquidus</text><text x="200" y="109">± uncertainty</text></g>
+  <g font-size="13" fill="#d4d4d8">
     <text x="40" y="228" text-anchor="middle">A</text><text x="380" y="228" text-anchor="middle">B</text>
     <text x="210" y="246" text-anchor="middle">composition</text>
     <text transform="translate(22 120) rotate(-90)" text-anchor="middle">temperature</text>

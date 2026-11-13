@@ -388,3 +388,4 @@ h1, h2, h3 { text-align: left; }
 h1:not(.hero-band h1), h2:not([id^="y"]):not(#manuscripts), h3, .card h3 a, .tile h3, figcaption b {
   background: none; -webkit-background-clip: border-box; background-clip: border-box; color: var(--flat-gunmetal); -webkit-text-fill-color: var(--flat-gunmetal);
 }
+.stats { grid-template-columns: repeat(2, minmax(11rem, 18rem)); justify-content: center; }
